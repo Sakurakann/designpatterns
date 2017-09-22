@@ -5,8 +5,12 @@ import com.sakurakann.designpatterns.factorypattern.beanimpl.MailSender;
 import com.sakurakann.designpatterns.factorypattern.beanimpl.SmsSender;
 
 /**
- * Created with IntelliJ IDEA. Project: designpatterns. Package: com.sakurakann.designpatterns.factorypattern.normalFactory.
- * User: Administrator. Date: 2017-09-22 16:31. Author: Haiyangp.
+ * Created with IntelliJ IDEA.
+ * Project: designpatterns.
+ * Package: com.sakurakann.designpatterns.factorypattern.normalFactory.
+ * User: Administrator.
+ * Date: 2017-09-22 16:31.
+ * Author: Haiyangp.
  */
 public class SendInstanceProducer {
 

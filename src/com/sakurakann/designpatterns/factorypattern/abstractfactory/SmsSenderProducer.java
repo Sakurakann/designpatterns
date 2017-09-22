@@ -4,8 +4,12 @@ import com.sakurakann.designpatterns.factorypattern.bean.Sender;
 import com.sakurakann.designpatterns.factorypattern.beanimpl.SmsSender;
 
 /**
- * Created with IntelliJ IDEA. Project: designpatterns. Package: com.sakurakann.designpatterns.factorypattern.abstractfactory.
- * User: Administrator. Date: 2017-09-22 17:07. Author: Haiyangp.
+ * Created with IntelliJ IDEA.
+ * Project: designpatterns.
+ * Package: com.sakurakann.designpatterns.factorypattern.abstractfactory.
+ * User: Administrator.
+ * Date: 2017-09-22 17:07.
+ * Author: Haiyangp.
  */
 public class SmsSenderProducer implements Producer {
 
