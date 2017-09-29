@@ -1,6 +1,6 @@
-package com.sakurakann.designpatterns.factorypattern.abstractfactory;
+package com.sakurakann.designpatterns.factory.abstractfactory;
 
-import com.sakurakann.designpatterns.factorypattern.bean.Sender;
+import com.sakurakann.designpatterns.factory.bean.Sender;
 
 /**
  * Created with IntelliJ IDEA.

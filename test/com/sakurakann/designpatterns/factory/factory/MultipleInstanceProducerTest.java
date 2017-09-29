@@ -1,4 +1,4 @@
-package com.sakurakann.designpatterns.factorypattern.factory;
+package com.sakurakann.designpatterns.factory.factory;
 
 import org.junit.Test;
 import org.junit.Before; 

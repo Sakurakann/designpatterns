@@ -1,8 +1,8 @@
-package com.sakurakann.designpatterns.factorypattern.factory;
+package com.sakurakann.designpatterns.factory.factory;
 
-import com.sakurakann.designpatterns.factorypattern.bean.Sender;
-import com.sakurakann.designpatterns.factorypattern.beanimpl.MailSender;
-import com.sakurakann.designpatterns.factorypattern.beanimpl.SmsSender;
+import com.sakurakann.designpatterns.factory.bean.Sender;
+import com.sakurakann.designpatterns.factory.beanimpl.MailSender;
+import com.sakurakann.designpatterns.factory.beanimpl.SmsSender;
 
 /**
  * Created with IntelliJ IDEA.

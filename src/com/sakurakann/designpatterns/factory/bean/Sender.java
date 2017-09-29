@@ -1,4 +1,4 @@
-package com.sakurakann.designpatterns.factorypattern.bean;
+package com.sakurakann.designpatterns.factory.bean;
 
 /**
  * Created with IntelliJ IDEA.

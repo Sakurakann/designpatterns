@@ -1,17 +1,17 @@
-package com.sakurakann.designpatterns.factorypattern.abstractfactory;
+package com.sakurakann.designpatterns.factory.abstractfactory;
 
-import com.sakurakann.designpatterns.factorypattern.bean.Sender;
-import com.sakurakann.designpatterns.factorypattern.beanimpl.MailSender;
+import com.sakurakann.designpatterns.factory.bean.Sender;
+import com.sakurakann.designpatterns.factory.beanimpl.SmsSender;
 
 /**
  * Created with IntelliJ IDEA.
  * Project: designpatterns.
  * Package: com.sakurakann.designpatterns.factorypattern.abstractfactory.
  * User: Administrator.
- * Date: 2017-09-22 17:05.
+ * Date: 2017-09-22 17:07.
  * Author: Haiyangp.
  */
-public class MailSenderProducer implements Producer {
+public class SmsSenderProducer implements Producer {
 
   /**
    * 创建Sender的实例.
@@ -20,6 +20,6 @@ public class MailSenderProducer implements Producer {
    */
   @Override
   public Sender produce() {
-    return new MailSender();
+    return new SmsSender();
   }
 }

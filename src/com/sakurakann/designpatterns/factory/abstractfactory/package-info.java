@@ -6,4 +6,4 @@
  * Date: 2017-09-22 17:09.
  * Author: Haiyangp.
  */
-package com.sakurakann.designpatterns.factorypattern.abstractfactory;
+package com.sakurakann.designpatterns.factory.abstractfactory;

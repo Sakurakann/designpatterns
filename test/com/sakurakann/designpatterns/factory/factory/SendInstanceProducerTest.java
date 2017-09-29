@@ -1,6 +1,6 @@
-package com.sakurakann.designpatterns.factorypattern.factory;
+package com.sakurakann.designpatterns.factory.factory;
 
-import com.sakurakann.designpatterns.factorypattern.bean.Sender;
+import com.sakurakann.designpatterns.factory.bean.Sender;
 
 import org.junit.Test; 
 import org.junit.Before; 
