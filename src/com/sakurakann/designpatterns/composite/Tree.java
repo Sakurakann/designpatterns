@@ -11,22 +11,44 @@ import java.util.Enumeration;
  * Author: Haiyangp.
  */
 public class Tree {
+
+  /**
+   * The Root.
+   */
   TreeNode root = null;
 
+  /**
+   * Instantiates a new Tree.
+   *
+   * @param name the name
+   */
   public Tree(String name) {
     super();
     root = new TreeNode(name);
     root.setParent(null);
   }
 
+  /**
+   * Instantiates a new Tree.
+   */
   public Tree() {
     super();
   }
 
+  /**
+   * Gets root.
+   *
+   * @return the root
+   */
   public TreeNode getRoot() {
     return root;
   }
 
+  /**
+   * The entry point of application.
+   *
+   * @param args the input arguments
+   */
   public static void main(String[] args) {
     Tree treeA = new Tree("Root A");
     TreeNode nodeB = new TreeNode("Node B");
@@ -42,7 +64,16 @@ public class Tree {
     treeA.printAllChildren(treeA.getRoot());
   }
 
+  /**
+   * The An int.
+   */
   int anInt = 0;
+
+  /**
+   * Print all children.
+   *
+   * @param node the node
+   */
   public void printAllChildren(TreeNode node) {
     Enumeration<TreeNode> children = node.getChildren();
     String message = " 没有父节点!";
@@ -50,11 +81,11 @@ public class Tree {
       while (children.hasMoreElements()) {
         TreeNode childrenNode = children.nextElement();
         TreeNode parent = childrenNode.getParent();
-        if (parent != null||!parent.equals(null)) {
-          message = " has a parent" +parent.getName();
+        if (parent != null || !parent.equals(null)) {
+          message = " has a parent" + parent.getName();
         }
 
-        for (int i = 0;i < anInt;i++){
+        for (int i = 0; i < anInt; i++) {
           System.out.print("  ");
         }
         System.out.println(childrenNode.getName() + message);
