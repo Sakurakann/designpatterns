@@ -1,3 +1,3 @@
 # designpatterns
 Design patterns code demos
-https://github.com/sakurakann/designpatterns/raw/master/img/patterns.png
+![Image text](https://github.com/Sakurakann/designpatterns/blob/master/res/img/patterns.png)
