@@ -1,8 +1,12 @@
-package com.sakurakann.designpatterns.TemplateMethod;
+package com.sakurakann.designpatterns.templatemethod;
 
 /**
- * Created with IntelliJ IDEA. Project: designpatterns. Package: com.sakurakann.designpatterns.TemplateMethod.
- * User: Administrator. Date: 2017-10-18 15:14. Author: Haiyangp.
+ * Created with IntelliJ IDEA.
+ * Project: designpatterns.
+ * Package: com.sakurakann.designpatterns.TemplateMethod.
+ * User: Administrator.
+ * Date: 2017-10-18 15:14.
+ * Author: Haiyangp.
  */
 public class Plus extends AbstractCalculator {
 
