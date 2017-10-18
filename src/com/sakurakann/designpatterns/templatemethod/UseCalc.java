@@ -1,11 +1,20 @@
-package com.sakurakann.designpatterns.TemplateMethod;
+package com.sakurakann.designpatterns.templatemethod;
 
 /**
- * Created with IntelliJ IDEA. Project: designpatterns. Package: com.sakurakann.designpatterns.TemplateMethod.
- * User: Administrator. Date: 2017-10-18 15:19. Author: Haiyangp.
+ * Created with IntelliJ IDEA.
+ * Project: designpatterns.
+ * Package: com.sakurakann.designpatterns.TemplateMethod.
+ * User: Administrator.
+ * Date: 2017-10-18 15:19.
+ * Author: Haiyangp.
  */
 public class UseCalc {
 
+  /**
+   * The entry point of application.
+   *
+   * @param args the input arguments
+   */
   public static void main(String[] args) {
 
     String plusExp = "8+2";
